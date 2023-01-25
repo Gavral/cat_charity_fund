@@ -88,7 +88,7 @@ async def check_correct_full_amount_for_update(
         raise HTTPException(
             status_code=422,
             detail=(
-                'Новая требуемая сумма должна быть больше уже '
-                'внесенной в проект суммы - {project_invested_amount}'
-            ).format(db_project_invested_amount)
+                f'Новая требуемая сумма должна быть больше уже '
+                f'внесенной в проект суммы - {db_project_invested_amount}'
+            )
         )
