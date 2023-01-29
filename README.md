@@ -54,12 +54,12 @@ alembic upgrade head
 uvicorn app.main:app
 ```
 
-##Документация к API досупна по адресам:
+## Документация к API досупна по адресам:
 
 - Swagger: http://127.0.0.1:8000/docs
 - Redoc: http://127.0.0.1:8000/redoc
 
-##Автор
+## Автор
 
 Гаврилов Александр
 
